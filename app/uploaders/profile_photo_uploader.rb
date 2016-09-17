@@ -3,7 +3,7 @@
 class ProfilePhotoUploader < CarrierWave::Uploader::Base
 
   # Include rmagick or MiniMagick support:
-  include CarrierWave::rmagick
+  include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
